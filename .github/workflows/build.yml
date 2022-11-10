@@ -27,7 +27,7 @@ on:
 jobs:
   macos-jdk8:
     name: 'macOS (JDK 8)'
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: 'Set up JDK 8'
